@@ -1,0 +1,184 @@
+/* CSS Document */
+a,a:hover { color: white;}
+a:hover { opacity: 0.6}
+
+.clr{ color: white;}
+.clr:hover { color: deeppink; text-decoration: none;}
+
+#e1 { color: #007bff;  font-family: Lobster, cursive;
+    font-size: 35px;}
+#e2 { color: yellow; font-family: Lobster, cursive; font-size: 35px; }
+
+.nav-link {color: white }
+
+.fa-caret-down { color: yellow;}
+
+.colr { background-color: #20c997}
+
+.benefit
+{
+    margin-top: 74px;
+    padding-bottom: 55px;
+}
+.benefit_row
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.benefit_col
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.benefit_item
+{
+    height: 100px;
+    background: #f3f3f3;
+    border-right: solid 1px #FFFFFF;
+    padding-left: 25px;
+}
+.benefit_col:last-child .benefit_item
+{
+    border-right: none;
+}
+.benefit_icon i
+{
+    font-size: 30px;
+    color: #fe4c50;
+}
+.benefit_content
+{
+    padding-left: 22px;
+}
+.benefit_content h6
+{
+    text-transform: uppercase;
+    line-height: 18px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.benefit_content p
+{
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 0px;
+    color: #51545f;
+}
+
+#custom:hover { background-color: white; border-radius: 4px;}
+
+.nav-item { font-size: 20px;}
+li:hover { border-radius: 4px;}
+
+.bg-black{ background-color: rgba(14,14,14,1.00)}
+
+.carousel-caption{ top:200px;}
+
+.bg-orange{background-color:#f0644f; color: aliceblue; font-weight: 600; text-align: center;}
+.m-right{border: 2px solid #f0644f; border-right: 2px solid white;}
+
+.underline{width: 100px; height: 2px; background-color: orangered;}
+
+.card{border: none;}
+.bg-light-gray{background-color: rgba(111,111,111,0.09)}
+
+
+.section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-grey {
+    background: black;
+}
+.footer {
+    margin: 15px 0px;
+    color: white;
+}
+.footer .footer-header {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.footer-social>li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 6px;
+}
+
+.footer-social>li:last-child {
+    margin-right: 0px;
+}
+
+.list-links .list-links-title {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.list-links li>a {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 2px 0px;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+}
+
+.list-links li>a:before {
+    content: "\f105";
+    position: absolute;
+    left: 0px;
+    font-family: FontAwesome;
+    -webkit-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    transform: translateX(-10px);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+}
+
+.list-links li>a:hover, .list-links li>a:focus, .list-links li.active>a {
+    color: deeppink;
+    -webkit-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    transform: translateX(10px);
+}
+
+.list-links li>a:hover:before, .list-links li>a:focus:before, .list-links li.active>a:before {
+    opacity: 1;
+    visibility: visible;
+}
+a { color: lightseagreen;}
+a:hover { color: deeppink}
+
+.btn-outline-lsg {
+    color: lightseagreen;
+    background-color: transparent;
+    background-image: none;
+    border-color: lightseagreen;
+}
+.btn-outline-lsg:hover {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-outline-lsg:focus, .btn-outline-lsg.focus {
+    box-shadow: 0 0 0 0.2rem lightseagreen;
+}
+.footer-credit { color: white; float: left;}
+
+.media img{ max-width: 120px; height: auto;}
+
+.underline-green{width: 70px; height: 2px; background-color: lawngreen;}
+.underline-blue{width: 70px; height: 2px; background-color: mediumblue;}
+.underline-black{width: 70px; height: 2px; background-color: black;}
+
+.card-body{text-align: center;}
+
+.blog .media img{ max-width: 200px; height: auto;}
+
+footer ul{text-decoration: none; list-style-type: none;}
